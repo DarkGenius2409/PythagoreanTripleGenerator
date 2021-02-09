@@ -11,3 +11,11 @@
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
 />
+
+<style>
+  iframe {
+    max-width: 60%;
+    min-height: 25.5625rem;
+    height: auto;
+  }
+</style>
