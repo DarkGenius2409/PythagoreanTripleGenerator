@@ -39,7 +39,7 @@
     min-height: 75%;
   }
   hr {
-    border-width: 5px;
+    border-width: 0.3125rem;
     border-style: dotted none none;
     border-color: grey;
     width: 5%;

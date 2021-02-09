@@ -6,12 +6,12 @@
 
 <style>
   footer {
-    padding: 40px;
+    padding: 2.5rem;
     text-align: center;
   }
   .copyright {
     color: #aaa;
-    font-size: 14px;
+    font-size: 0.875rem;
     display: inline-block;
     padding: 1.25rem;
     border-top: 1px solid #ddd;

@@ -1,5 +1,4 @@
 <script>
-  import { title } from "process";
 </script>
 
 <h3>How This Works</h3>
