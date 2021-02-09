@@ -29,7 +29,7 @@
   }
 
   .btn {
-    border-radius: 10px;
+    border-radius: 0.625rem;
   }
   .bg {
     position: relative;
