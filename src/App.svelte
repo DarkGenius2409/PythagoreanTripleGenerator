@@ -8,10 +8,10 @@
 <nav>
   <div class="nav-wrapper">
     <div class="container">
-      <a class="brand-logo left" href="#home">Pythagorean Triple Generator</a>
+      <a class="logo" href="#home">Pythagorean Triple Generator</a>
       <ul class="right">
-        <li><a href="#what-is-this">What is this</a></li>
-        <li><a href="#how-this-works">How does this work</a></li>
+        <li><a class="link" href="#what-is-this">What Is This</a></li>
+        <li><a class="link" href="#how-this-works">How This Works</a></li>
       </ul>
     </div>
   </div>
@@ -46,5 +46,31 @@
   }
   .nav-wrapper {
     background-color: #f48c25;
+  }
+  .logo {
+    font-size: 1.7rem;
+  }
+  .link {
+    font-size: 1rem;
+  }
+  .container {
+    margin: auto;
+  }
+  @media only screen and (max-width: 768px) {
+    .logo {
+      font-size: 1.3rem;
+    }
+    .link {
+      font-size: 0.9rem;
+    }
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 600px) {
+    .logo {
+      font-size: 1rem;
+    }
+    .link {
+      font-size: 0.7rem;
+    }
   }
 </style>
