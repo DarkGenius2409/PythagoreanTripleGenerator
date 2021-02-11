@@ -24,7 +24,7 @@
   h1 {
     color: #ff3e00;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 100;
   }
 
@@ -34,5 +34,18 @@
   .bg {
     position: relative;
     top: 1.5rem;
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 3.3rem;
+    }
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 2.3rem;
+    }
   }
 </style>
