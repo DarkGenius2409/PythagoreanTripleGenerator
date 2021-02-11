@@ -72,5 +72,8 @@
     .link {
       font-size: 0.7rem;
     }
+    .container {
+      margin-left: 30%;
+    }
   }
 </style>

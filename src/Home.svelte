@@ -45,7 +45,7 @@
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 2.3rem;
+      font-size: 2.6rem;
     }
   }
 </style>
