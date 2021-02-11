@@ -74,4 +74,10 @@
       font-size: 0.7rem;
     }
   }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .container {
+      width: 50%;
+    }
+  }
 </style>
