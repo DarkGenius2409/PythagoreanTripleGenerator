@@ -49,12 +49,13 @@
   }
   .logo {
     font-size: 1.7rem;
+    margin: auto;
   }
   .link {
     font-size: 1rem;
   }
   .container {
-    margin: auto;
+    width: auto;
   }
   @media only screen and (max-width: 768px) {
     .logo {
@@ -71,9 +72,6 @@
     }
     .link {
       font-size: 0.7rem;
-    }
-    .container {
-      margin-left: 30%;
     }
   }
 </style>
