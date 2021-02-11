@@ -16,6 +16,29 @@
     </div>
   </div>
 </nav>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark nav-wrapper">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#home">Pythagorean Triple Generator</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon" />
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav right">
+        <a class="nav-link" href="#what-is-this">What Is This</a>
+        <a class="nav-link" href="#how-this-works">How THis Works</a>
+      </div>
+    </div>
+  </div>
+</nav> -->
 <section id="home">
   <Home />
 </section>
@@ -28,6 +51,28 @@
 </section>
 <Footer />
 
+<!-- <nav class="navbar navbar-expand-lg navbar-dark nav-wrapper">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#home">Pythagorean Triple Generator</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon" />
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav right">
+        <a class="nav-link" href="#what-is-this">What Is This</a>
+        <a class="nav-link" href="#how-this-works">How THis Works</a>
+      </div>
+    </div>
+  </div>
+</nav> -->
 <style>
   section {
     text-align: center;
@@ -54,9 +99,6 @@
   .link {
     font-size: 1rem;
   }
-  .container {
-    width: auto;
-  }
   @media only screen and (max-width: 768px) {
     .logo {
       font-size: 1.3rem;
@@ -74,10 +116,7 @@
       font-size: 0.7rem;
     }
   }
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    .container {
-      width: 85vw;
-    }
+  .right {
+    text-align: end;
   }
 </style>

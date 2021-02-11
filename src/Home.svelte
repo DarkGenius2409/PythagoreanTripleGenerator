@@ -38,7 +38,7 @@
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 3.3rem;
+      font-size: 3.6rem;
     }
   }
 
