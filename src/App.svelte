@@ -17,28 +17,6 @@
   </div>
 </nav>
 
-<!-- <nav class="navbar navbar-expand-lg navbar-dark nav-wrapper">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#home">Pythagorean Triple Generator</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon" />
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav right">
-        <a class="nav-link" href="#what-is-this">What Is This</a>
-        <a class="nav-link" href="#how-this-works">How THis Works</a>
-      </div>
-    </div>
-  </div>
-</nav> -->
 <section id="home">
   <Home />
 </section>
@@ -51,28 +29,6 @@
 </section>
 <Footer />
 
-<!-- <nav class="navbar navbar-expand-lg navbar-dark nav-wrapper">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#home">Pythagorean Triple Generator</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon" />
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav right">
-        <a class="nav-link" href="#what-is-this">What Is This</a>
-        <a class="nav-link" href="#how-this-works">How THis Works</a>
-      </div>
-    </div>
-  </div>
-</nav> -->
 <style>
   section {
     text-align: center;
@@ -89,7 +45,7 @@
     border-color: grey;
     width: 5%;
   }
-  .nav-wrapper {
+  nav {
     background-color: #f48c25;
   }
   .logo {
@@ -116,7 +72,13 @@
       font-size: 0.7rem;
     }
   }
-  .right {
-    text-align: end;
+
+  @media only screen and (min-width: 1497.6px) {
+    .logo {
+      font-size: 3rem;
+    }
+    .link {
+      font-size: 1.3rem;
+    }
   }
 </style>

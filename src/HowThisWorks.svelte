@@ -3,13 +3,13 @@
 
 <h3>How This Works</h3>
 <iframe
-  title="Pythagorean Triple Generator"
-  width="727"
-  height="409"
-  src="https://www.youtube.com/embed/uprLp89Spgs"
+  width="1280"
+  height="720"
+  src="https://www.youtube.com/embed/JY7onB8aBBs"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
+  title="How this Works"
 />
 
 <style>
